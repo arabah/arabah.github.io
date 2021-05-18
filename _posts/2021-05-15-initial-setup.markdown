@@ -7,6 +7,7 @@ date:   2021-05-15 21:33:58 -0700
 
 1. Windows 10
 1. [PowerShell](https://aka.ms/powershell-release?tag=stable)
+1. [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 1. [Windows Terminal Preview](https://aka.ms/terminal-preview) (Or [Windows Terminal](https://aka.ms/terminal))
 
     `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
@@ -16,7 +17,7 @@ date:   2021-05-15 21:33:58 -0700
 1. [Nerd Fonts](https://www.nerdfonts.com/) (ref: [https://ohmyposh.dev/docs/fonts](https://ohmyposh.dev/docs/fonts))
    
     `Caskaydia Cove Nerd Font`
-1. Open Windows Terminal settings, under `profile`
+1. Open Windows Terminal settings in VS Code, under the `profile` JSON section
 
     ```
     "defaults": {
@@ -24,20 +25,8 @@ date:   2021-05-15 21:33:58 -0700
         "fontSize": 9
     }
     ```
-1. [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 1. [Chocolatey](https://chocolatey.org/)
 
-    `choco install git`
-1. [posh-git](https://github.com/dahlbyk/posh-git)
+    `choco install notepadplusplus`
 
-    `choco install poshgit`
-1. [powershell-git-aliases](https://github.com/gluons/powershell-git-aliases)
-
-    `Install-Module git-aliases -Scope CurrentUser -AllowClobber`
-1. In Powershell `notepad $profile`
-
-    ```
-    Set-PoshPrompt -Theme robbyrussel
-
-    Import-Module posh-git
-    ```
+[Setup Git →]({% post_url 2021-05-17-setting-up-git %})
